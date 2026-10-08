@@ -1,0 +1,41 @@
+{
+  "name": "web-app-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compilerOptions": {
+      "target": "ES2022",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "strict": true,
+      "skipLibCheck": true,
+      "types": [
+        "node"
+      ]
+    },
+    "include": [
+      "playwright.config.ts",
+      "e2e/**/*.ts",
+      "pages/**/*.ts"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monikagacsi/web-app-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monikagacsi/web-app-testing/issues"
+  },
+  "homepage": "https://github.com/monikagacsi/web-app-testing#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^22.20.5",
+    "typescript": "^7.0.2"
+  }
+}
